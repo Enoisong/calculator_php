@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(10, 117, 94);
+  font-family: 'Yomogi', cursive;
+  color: #fff;
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+input {
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 18px;
+  background: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  font-family: 'Yomogi', cursive;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(2, 168, 127);
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+p {
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 200px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
